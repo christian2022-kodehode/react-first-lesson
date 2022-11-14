@@ -20,11 +20,39 @@ button {
 	transition-duration: 0.3s;
 	transition-timing-function: ease-in-out;
 }
-	button:hover,
+	button:hover{
+		background-color: hsl(240deg 55% 55%);
+	}
+
 	button:focus {
 		background-color: hsl(240deg 60% 60%);
 	}
 
 	button:active {
 		background-color: hsl(240deg 70% 70%);
+	}
+
+.actions {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2em;
+}
+	.actions__button::before {
+		line-height: 2em;
+		width: 2em;
+		border-radius: 50%;
+		background-color: hsla(0deg 0% 100% / 30%);
+		margin: 1em auto;
+		display: block;
+		font-size: 150%;
+		font-weight: 700;
+	}
+	.actions__button--increase::before {
+		content: "+";
+	}
+	
+	.actions__button--decrease::before {
+		content: "-";
 	}
