@@ -1,10 +1,10 @@
 import "./App.css"
-import Incrementor from "./components/Incrementor/Incrementor"
+import TestAPI from "./components/TestAPI/TestAPI"
 
 function App() {
   return (
     <>
-      <Incrementor />
+      <TestAPI />
     </>
   );
 }
