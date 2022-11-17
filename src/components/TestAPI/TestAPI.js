@@ -10,13 +10,13 @@ async function dataFetch(callback) {
 dataFetch(console.log)
 
 function TestAPI() {
-	const [ fetchedData, setFetchedData ] = useState(null)
+	const [ data, setData ] = useState(null)
 
-	useEffect(() => dataFetch(setFetchedData))
+	useEffect(() => dataFetch(setFetchedData), [])
 
 	return (
 		<div>
-			fetchedData[10]
+			{fetchedData[10]}
 		</div>
 	)
 }
