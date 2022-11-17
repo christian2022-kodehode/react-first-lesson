@@ -15,10 +15,10 @@ function TestAPI() {
 	[])
 	
 	return (
-		<>
-			<h1>Japanese character for learning:</h1>
-			<p>{data[10]}</p>
-		</>
+		<div style={{textAlign: "center"}}>
+			<h1 style={{fontSize: 150+"%"}}>Japanese character for learning:</h1>
+			<p style={{fontSize: 300+"%"}}>{data[10]}</p>
+		</div>
 	)
 }
 
