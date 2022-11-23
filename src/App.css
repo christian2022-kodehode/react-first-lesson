@@ -1,4 +1,10 @@
+@font-face {
+	font-family: "Catamaran";
+	src: url("./assets/fonts/Catamaran-VariableFont_wght.ttf") format("truetype");
+}
+
 body {
+	font-family: "Catamaran", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
