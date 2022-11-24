@@ -4,11 +4,13 @@ import KanjiData from "../../contexts/kanjidata"
 const KanjiList = () => {
     const data = useContext(KanjiData)
 
-    return (
-        <>
-        <h2>List of grade-1 kanji:</h2> {data}
-        </>
-    )
+    if (data) {
+        return (
+            <>
+            <h2>List of grade-1 kanji:</h2> {data}
+            </>
+        )
+    }
 }
 
 export default KanjiList
