@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a4d264a.css",
-    "main.js": "/static/js/main.6da61182.js",
-    "static/media/Catamaran-VariableFont_wght.ttf": "/static/media/Catamaran-VariableFont_wght.1c273225019f7a1dfa80.ttf",
-    "index.html": "/index.html",
-    "main.6a4d264a.css.map": "/static/css/main.6a4d264a.css.map",
-    "main.6da61182.js.map": "/static/js/main.6da61182.js.map"
+    "main.css": "/react-first-lesson/static/css/main.fc82bd04.css",
+    "main.js": "/react-first-lesson/static/js/main.6da61182.js",
+    "static/media/Catamaran-VariableFont_wght.ttf": "/react-first-lesson/static/media/Catamaran-VariableFont_wght.1c273225019f7a1dfa80.ttf",
+    "index.html": "/react-first-lesson/index.html",
+    "main.fc82bd04.css.map": "/react-first-lesson/static/css/main.fc82bd04.css.map",
+    "main.6da61182.js.map": "/react-first-lesson/static/js/main.6da61182.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a4d264a.css",
+    "static/css/main.fc82bd04.css",
     "static/js/main.6da61182.js"
   ]
 }
