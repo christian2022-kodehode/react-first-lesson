@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a4d264a.css",
+    "main.js": "/static/js/main.6da61182.js",
+    "static/media/Catamaran-VariableFont_wght.ttf": "/static/media/Catamaran-VariableFont_wght.1c273225019f7a1dfa80.ttf",
+    "index.html": "/index.html",
+    "main.6a4d264a.css.map": "/static/css/main.6a4d264a.css.map",
+    "main.6da61182.js.map": "/static/js/main.6da61182.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a4d264a.css",
+    "static/js/main.6da61182.js"
+  ]
+}
